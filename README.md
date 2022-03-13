@@ -34,3 +34,14 @@ https://developer.android.com/guide/components/intents-filters <br/><br/>
 • Layouts<br/>
 https://developer.android.com/guide/topics/ui/declaring-layout <br/>**
 # 
+### Day 2 :
+
+**• Simple Calculator <br/>**
+*Refer to the branch **calculator** for the code <br/><br/>*
+**• Activity Life Cycle<br/>
+https://www.geeksforgeeks.org/activity-lifecycle-in-android-with-demo-app/ <br/><br/>
+• Recycler View <br/>
+https://www.geeksforgeeks.org/android-recyclerview/ <br/>
+https://medium.com/androiddevelopers/getting-to-know-recyclerview-ea14f8514e6 <br/>**
+*Refer to the second link for a better explanation (contains code in Kotlin) <br/><br/>*
+# 

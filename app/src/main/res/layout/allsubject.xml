@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardCornerRadius="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1E1E1E"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/subname"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Hindi"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="78%"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/decimal"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:text="Status: You can't leave next class"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/decimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subname"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:text="Attendance = 11/14"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subname"
+            android:layout_toStartOf="@id/sub"
+            android:backgroundTint="#27E12E"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subname"
+            android:layout_alignEnd="@id/percentage"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#DF3124"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

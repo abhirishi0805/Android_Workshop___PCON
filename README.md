@@ -36,10 +36,16 @@ https://developer.android.com/guide/topics/ui/declaring-layout <br/>**
 # 
 ### Day 2 :
 
-**• Simple Calculator <br/>**
-*Refer to the branch **calculator** for the code <br/><br/>*
+**• Simple Calculator App<br/>**
+*Refer to the branch **calculator** for its code <br/><br/>*
 **• Activity Life Cycle<br/>
 https://www.geeksforgeeks.org/activity-lifecycle-in-android-with-demo-app/ <br/><br/>
 • Recycler View <br/>
 https://www.geeksforgeeks.org/android-recyclerview/ <br/>**
 # 
+### Day 3 :
+
+**• Firebase<br/>
+https://firebase.google.com/ <br/><br/>
+• Attendance Tracker App <br/>**
+*Refer to the branch **attendance** for its code <br/>*
